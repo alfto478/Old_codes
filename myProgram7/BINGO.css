@@ -1,0 +1,141 @@
+#title{
+    position: absolute;
+    top: 26px;
+    left: 20px;
+}
+#count{
+    position: absolute;
+    top: 65px;
+    left: 840px;
+}
+#tresult{
+    position: absolute;
+    top: 381px;
+    left: 345px;
+}
+#position{
+    position: absolute;
+	top: 71px;
+	left: 300px;
+	width: 602px;
+	height: 300px;
+    border-radius: 15px;
+    user-select: none;
+    border: solid;
+}
+#number{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 12ex;
+}
+#keepingArea{
+    position: absolute;
+	top: 430px;
+	left: 300px;
+	width: 400px;
+	height: 200px;
+    border-radius: 15px;
+    border: solid;
+}
+#secondkeeparea{
+    position: absolute;
+	top: 430px;
+	left: 725px;
+	width: 177px;
+	height: 200px;
+    border-radius: 15px;
+    border: solid;
+}
+.cline{
+    position: absolute;
+    left: 20px;
+}
+.line{
+    position: absolute;
+    left: 45px;
+}
+#cl1{
+    top: 10px;
+}
+#cl2{
+    top: 50px;
+}
+#cl3{
+    top: 90px;
+}
+#cl4{
+    top: 130px;
+}
+#cl5{
+    top: 170px;
+}
+#mc1{
+    top: 13px;
+}
+#mc2{
+    top: 53px;
+}
+#mc3{
+    top: 93px;
+}
+#mc4{
+    top: 133px;
+}
+#mc5{
+    top: 173px;
+}
+#set{
+    position: absolute;
+    top: 20px;
+    left: 930px;
+    width: 40px;
+    height: 40px;
+}
+#set{
+    transition: transform 0.5s;
+}
+#set:hover{
+    cursor: pointer;
+    transform: rotateZ(45deg);
+}
+#hamburger{
+    position: relative;
+    top: -23px;
+    left: -6000px;
+    /*left: 965px;
+    right: 0px;*/
+    height: 430px;
+    z-index: 1001;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid;
+    border-radius: 20% 0 20% 0;
+}
+#cs{
+    position: absolute;
+    left: 50px;
+}
+#reset{
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    z-index: 1002;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    border: solid;
+}
+#roulette{
+    position: absolute;
+    top: 100px;
+    left: 15px;
+    width: 110px;
+    z-index: 1002;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    border: solid;
+}

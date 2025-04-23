@@ -1,0 +1,89 @@
+#title{
+    position:absolute;
+    top: 20px;
+    left: 16px;
+    width: 264px;
+    height: 45px;
+}
+#explain{
+    position:absolute;
+    top: 127px;
+    left: 40px;
+    width: 340px;
+    height: 549px;
+    border: solid;
+}
+#level{
+    position:relative;
+    position:absolute;
+    top: 89px;
+    left: 628px;
+    width: 215px;
+    height: 35px;
+    border: solid;
+}
+.judgmentLevel{
+    position: absolute;
+    top: 5px;
+}
+
+/* アニメーション */
+@-webkit-keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+@keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+/* マウスオーバー時 */
+.judgmentLevel:hover{
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+#easy{
+    left: 10px;
+}
+#normal{
+    left: 80px;
+}
+#hard{
+    left: 170px;
+}
+#mainContent{
+    position:absolute;
+    top: 127px;
+    left: 628px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid;
+    z-index: 1000;
+}
+#subScreen{
+    position:absolute;
+    top: 127px;
+    left: 628px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: solid;
+    z-index: 1001;
+}

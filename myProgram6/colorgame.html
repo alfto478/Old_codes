@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes">
+        <title>ColorGame</title>
+        <link rel="stylesheet" type="text/css" href="colorgame.css">
+    </head>
+    <body>
+        <img id="png" src="card.front.design.png">
+        <h1 id="title">Color Game</h1>
+        <label id="selectLevel">level:
+            <select id="list">
+                <option value="">please select</option>
+                <option value="easy">easy</option>
+                <option value="normal">normal</option>
+                <option value="hard">hard</option>
+            </select>
+        </label>
+        <button id="decision">decide</button>
+        <canvas id="resultScreen" width="900px" height="475px"></canvas>
+        <canvas id="mainScreen" width="900px" height="475px"></canvas>
+        <div id="displayScore">score:<div id="score">300</div></div>
+        <script type="text/javascript" src="colorgame.js"></script>
+    </body>
+</html>

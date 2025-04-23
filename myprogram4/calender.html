@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>calendar</title>
+        <meta name="description" content="自分用便利プログラム">
+        <link rel="stylesheet" href="calender.css">
+    </head>
+    <body>
+        <h2><div id="title">calendear</div></h2>
+        <h4><div id="day">今日は****年*月*日*曜日です</div></h4>
+        <div id="months">
+            <h4><div class="month" style="left: 0px; background-color: #e79798;">1</div></h4>
+            <h4><div class="month" style="left: 125px; background-color: #e7b897;">2</div></h4>
+            <h4><div class="month" style="left: 250px; background-color: #e7e397;">3</div></h4>
+            <h4><div class="month" style="left: 375px; background-color: #cce797;">4</div></h4>
+            <h4><div class="month" style="left: 500px; background-color: #a6e797;">5</div></h4>
+            <h4><div class="month" style="left: 625px; background-color: #97e7b9;">6</div></h4>
+            <h4><div class="month" style="left: 750px; background-color: #97e7e7;">7</div></h4>
+            <h4><div class="month" style="left: 875px; background-color: #97c5e7;">8</div></h4>
+            <h4><div class="month" style="left: 1000px; background-color: #979be7;">9</div></h4>
+            <h4><div class="month" style="left: 1125px; background-color: #b797e7;">10</div></h4>
+            <h4><div class="month" style="left: 1250px; background-color: #e797e6;">11</div></h4>
+            <h4><div class="month" style="left: 1375px; background-color: #e797c7;">12</div></h4>
+        </div>
+        <div id="days">
+            <table id="calendar" border="1" bgcolor="#000000" width="1166" height="660">
+                <tr id="section" bgcolor="#ffffff" height="30">
+                    <th bgcolor="#de8283" width="155">Sunday</th>
+                    <th width="155">Monday</th>
+                    <th width="155">Tuesday</th>
+                    <th width="155">Wednesday</th>
+                    <th width="155">Thursday</th>
+                    <th width="155">Friday</th>
+                    <th bgcolor="#8fa3db" width="155">Saturday</th>
+                </tr>
+                <tr id="week_1" bgcolor="#ffffff" height="101" valign="top">
+                    <td class="bigfont" bgcolor="#de8283">1</td>
+                    <td class="bigfont">1</td>
+                    <td class="bigfont">1</td>
+                    <td class="bigfont">1</td>
+                    <td class="bigfont">1</td>
+                    <td class="bigfont">1</td>
+                    <td class="bigfont" bgcolor="#8fa3db">1</td>
+                </tr>
+                <tr id="week_2" bgcolor="#ffffff" height="101" valign="top">
+                    <td class="bigfont" bgcolor="#de8283">2</td>
+                    <td class="bigfont">2</td>
+                    <td class="bigfont">2</td>
+                    <td class="bigfont">2</td>
+                    <td class="bigfont">2</td>
+                    <td class="bigfont">2</td>
+                    <td class="bigfont" bgcolor="#8fa3db">2</td>
+                </tr>
+                <tr id="week_3" bgcolor="#ffffff" height="101" valign="top">
+                    <td class="bigfont" bgcolor="#de8283">3</td>
+                    <td class="bigfont">3</td>
+                    <td class="bigfont">3</td>
+                    <td class="bigfont">3</td>
+                    <td class="bigfont">3</td>
+                    <td class="bigfont">3</td>
+                    <td class="bigfont" bgcolor="#8fa3db">3</td>
+                </tr>
+                <tr id="week_4" bgcolor="#ffffff" height="101" valign="top">
+                    <td class="bigfont" bgcolor="#de8283">4</td>
+                    <td class="bigfont">4</td>
+                    <td class="bigfont">4</td>
+                    <td class="bigfont">4</td>
+                    <td class="bigfont">4</td>
+                    <td class="bigfont">4</td>
+                    <td class="bigfont" bgcolor="#8fa3db">4</td>
+                </tr>
+                <tr id="week_5" bgcolor="#ffffff" height="101" valign="top">
+                    <td class="bigfont" bgcolor="#de8283">5</td>
+                    <td class="bigfont">5</td>
+                    <td class="bigfont">5</td>
+                    <td class="bigfont">5</td>
+                    <td class="bigfont">5</td>
+                    <td class="bigfont">5</td>
+                    <td class="bigfont" bgcolor="#8fa3db">5</td>
+                </tr>
+                <tr id="week_6" bgcolor="#ffffff" height="101" valign="top">
+                    <td class="bigfont" bgcolor="#de8283">6</td>
+                    <td class="bigfont">6</td>
+                    <td class="bigfont">6</td>
+                    <td class="bigfont">6</td>
+                    <td class="bigfont">6</td>
+                    <td class="bigfont">6</td>
+                    <td class="bigfont" bgcolor="#8fa3db">6</td>
+                </tr>
+            </table>
+        </div>
+        <div id="memo">
+            <h4 id="css_day">日付</h4>
+            <div id="memo_day"><u><h4>今日は****年*月*日*曜日の予定</h4></u></div>
+            <h4 id="css_title">タイトル</h4>
+            <textarea id="text_title" maxlength="32"></textarea>
+            <h4 id="css_memo">メモ</h4>
+            <textarea id="textbox_memo"></textarea>
+            <button id="button_ok">ok</button>
+        </div>
+        <script src="calender.js"></script>
+    </body>
+</html>
